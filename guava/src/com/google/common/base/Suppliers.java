@@ -228,9 +228,9 @@ public final class Suppliers {
    * <p>When the underlying delegate throws an exception then this memoizing supplier will keep
    * delegating calls until it returns valid data.
    *
-   * <p>The expiration time is computed from a timestamp captured before the delegate is called,
-   * not from when it returns. Time spent retrieving the value counts toward the duration, so a
-   * value may already be expired when it is returned.
+   * <p>The expiration time is computed from a timestamp captured before the delegate is called, not
+   * from when it returns. Time spent retrieving the value counts toward the duration, so a value
+   * may already be expired when it is returned.
    *
    * @param duration the length of time before a retrieved value expires, measured from the
    *     timestamp captured before the delegate is called
@@ -261,9 +261,9 @@ public final class Suppliers {
    * <p>When the underlying delegate throws an exception then this memoizing supplier will keep
    * delegating calls until it returns valid data.
    *
-   * <p>The expiration time is computed from a timestamp captured before the delegate is called,
-   * not from when it returns. Time spent retrieving the value counts toward the duration, so a
-   * value may already be expired when it is returned.
+   * <p>The expiration time is computed from a timestamp captured before the delegate is called, not
+   * from when it returns. Time spent retrieving the value counts toward the duration, so a value
+   * may already be expired when it is returned.
    *
    * @param duration the length of time before a retrieved value expires, measured from the
    *     timestamp captured before the delegate is called
